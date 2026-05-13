@@ -515,7 +515,7 @@ function App() {
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.8rem', width: '100%', paddingBottom: '3rem' }}>
                 {[
                   { src: '/1.webp', pos: 'center' },
-                  { src: '/2.webp', pos: 'center 8%' },
+                  { src: '/2.webp', pos: '70% 8%' },
                   { src: '/3.webp', pos: 'center 35%' },
                   { src: '/4.1.webp', pos: 'center 15%' },
                   { src: '/5.webp', pos: 'center 25%' },
