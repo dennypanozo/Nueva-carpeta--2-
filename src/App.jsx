@@ -4,8 +4,8 @@ import { Calendar, Clock, MapPin, Phone, Volume2, VolumeX, Utensils, Gift, Music
 import './index.css';
 
 const calculateTimeLeft = () => {
-  // Configurado para exactamente 4 días a partir de la fecha de prueba (Mayo 17)
-  const difference = +new Date("2026-05-17T15:00:00-04:00") - +new Date();
+  // Configurado para la fecha oficial del evento (16 de Mayo)
+  const difference = +new Date("2026-05-16T15:00:00-04:00") - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {
@@ -414,7 +414,7 @@ function App() {
              <div className="event-details-grid">
                <div className="detail-item-centered">
                  <Calendar className="detail-icon" size={36} />
-                 <div className="detail-text">Sábado, 16 de Octubre</div>
+                 <div className="detail-text">Sábado, 16 de Mayo</div>
                  <div className="detail-sub">Fecha Oficial</div>
                </div>
 
