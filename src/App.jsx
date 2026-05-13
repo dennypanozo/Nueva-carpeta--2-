@@ -139,7 +139,7 @@ function App() {
             transition={{ duration: 1.8, ease: "easeInOut" }}
             style={{
               position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh',
-              backgroundImage: 'url(/baby_corp_bg.png)',
+              backgroundImage: 'url(/baby_corp_bg.webp)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               zIndex: 99999, display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column'
@@ -369,7 +369,7 @@ function App() {
              }}
           >
              <div style={{ borderRadius: '25px', overflow: 'hidden', border: '5px solid #FFFFFF', position: 'relative' }}>
-               <img src="/HIJO.png" alt="Bienvenida Jefe Eithan" style={{width: '100%', height: 'auto', display: 'block', objectFit: 'cover'}} />
+               <img src="/HIJO.webp" alt="Bienvenida Jefe Eithan" style={{width: '100%', height: 'auto', display: 'block', objectFit: 'cover'}} />
                
                {/* Efecto de Brillo / Glare Animado */}
                <motion.div 
@@ -432,7 +432,7 @@ function App() {
           <ThemeCard>
              <h2 className="card-title">Galería del Jefe</h2>
              <div style={{ overflow: 'hidden', border: '4px solid #FFFFFF', borderRadius: '15px', marginBottom: '1rem', boxShadow: '0 10px 25px rgba(0,0,0,0.15)' }}>
-                <img src="/GALERIA.png" alt="Foto Destacada" style={{width: '100%', height: 'auto', display: 'block', objectFit: 'cover'}} />
+                <img src="/GALERIA.webp" alt="Foto Destacada" style={{width: '100%', height: 'auto', display: 'block', objectFit: 'cover'}} />
              </div>
              
              <button onClick={() => setIsGalleryOpen(true)} className="btn-primary" style={{width: '100%', display: 'flex', justifyContent: 'center', padding: '1.2rem'}}>
@@ -474,7 +474,7 @@ function App() {
              viewport={{ once: false }}
              style={{ display: 'flex', justifyContent: 'center', marginTop: '1rem', marginBottom: '-3rem', zIndex: 10, position: 'relative' }}
           >
-             <img src="/pinata.png" alt="Piñata" style={{ width: '220px', filter: 'drop-shadow(0 10px 15px rgba(0,0,0,0.2))' }} />
+             <img src="/pinata.webp" alt="Piñata" style={{ width: '220px', filter: 'drop-shadow(0 10px 15px rgba(0,0,0,0.2))' }} />
           </motion.div>
 
            <ThemeCard>
@@ -514,18 +514,18 @@ function App() {
               
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.8rem', width: '100%', paddingBottom: '3rem' }}>
                 {[
-                  { src: '/1.jpg', pos: 'center' },
-                  { src: '/2.jpg', pos: 'center 8%' },
-                  { src: '/3.jpg', pos: 'center 35%' },
-                  { src: '/4.1.jpg', pos: 'center 15%' },
-                  { src: '/5.jpg', pos: 'center 25%' },
-                  { src: '/11.1.jpg', pos: 'center 35%' },
-                  { src: '/7.jpg', pos: 'center 15%' },
-                  { src: '/8.jpg', pos: 'center 15%' },
-                  { src: '/10.jpg', pos: 'center' },
-                  { src: '/10.7.jpg', pos: 'center' },
-                  { src: '/11.2.jpg', pos: 'center' },
-                  { src: '/12.jpg', pos: 'center 2%' }
+                  { src: '/1.webp', pos: 'center' },
+                  { src: '/2.webp', pos: 'center 8%' },
+                  { src: '/3.webp', pos: 'center 35%' },
+                  { src: '/4.1.webp', pos: 'center 15%' },
+                  { src: '/5.webp', pos: 'center 25%' },
+                  { src: '/11.1.webp', pos: 'center 35%' },
+                  { src: '/7.webp', pos: 'center 15%' },
+                  { src: '/8.webp', pos: 'center 15%' },
+                  { src: '/10.webp', pos: 'center' },
+                  { src: '/10.7.webp', pos: 'center' },
+                  { src: '/11.2.webp', pos: 'center' },
+                  { src: '/12.webp', pos: 'center 2%' }
                 ].map((item, i) => (
                   <div key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <div style={{ width: '100%', aspectRatio: '1/1', background: '#FFFFFF', border: '3px solid #FFFFFF', borderRadius: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 5px 15px rgba(0,0,0,0.1)', overflow: 'hidden' }}>
