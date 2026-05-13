@@ -290,6 +290,14 @@ function App() {
 
       <div className="mobile-wrapper">
         
+        {/* Nubes Flotantes Restauradas */}
+        <motion.div style={{ position: 'absolute', top: '15%', left: '-15%', zIndex: 1, opacity: 0.8 }} animate={{ x: [0, 80, 0] }} transition={{ duration: 25, repeat: Infinity, ease: 'linear' }}>
+          <img src="/nubes_1.webp" alt="nubes" style={{ width: '300px' }} />
+        </motion.div>
+        <motion.div style={{ position: 'absolute', top: '65%', right: '-20%', zIndex: 1, opacity: 0.8 }} animate={{ x: [0, -90, 0] }} transition={{ duration: 30, repeat: Infinity, ease: 'linear' }}>
+          <img src="/nubes_2.webp" alt="nubes" style={{ width: '350px' }} />
+        </motion.div>
+
         {/* Music Button Top Right */}
         <button 
           onClick={toggleMusic} 

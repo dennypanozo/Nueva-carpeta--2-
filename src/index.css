@@ -30,7 +30,7 @@ body {
   margin: 0 auto;
   position: relative;
   background-color: var(--cream-bg);
-  background-image: url('/baby_corp_bg.png');
+  background-image: url('/baby_corp_bg.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
